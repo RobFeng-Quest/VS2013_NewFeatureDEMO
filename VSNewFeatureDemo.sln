@@ -5,6 +5,12 @@ VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VSNewFeatureDemo", "VSNewFeatureDemo\VSNewFeatureDemo.csproj", "{E88B7783-77C3-4136-843C-F649F9DE081F}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Document", "Document", "{04D5357D-5E48-4D8E-B364-DD5028B7CDCB}"
+	ProjectSection(SolutionItems) = preProject
+		Document\New Features at VS Ultimate 2013.pptx = Document\New Features at VS Ultimate 2013.pptx
+		Document\Review VS.docx = Document\Review VS.docx
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
