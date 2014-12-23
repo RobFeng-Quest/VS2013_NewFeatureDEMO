@@ -10,6 +10,8 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using VSNewFeatureDemo.Examples;
+using VSNewFeatureDemo.Examples.MethodValues;
 
 namespace VSNewFeatureDemo
 {
@@ -22,5 +24,23 @@ namespace VSNewFeatureDemo
         {
             InitializeComponent();
         }
+
+        private void btnMethodValues_Click(object sender, RoutedEventArgs e)
+        {
+            ShowExample<ExamineReturnValuesOfMethodCalls>();
+        }
+
+        private void ShowExample<T>()
+            where T : IExample, new()
+        {
+            var example = new T();
+            example.Show();
+        }
+
+        private void btnCodeMaps_Click(object sender, RoutedEventArgs e)
+        {
+            // use thread to show debug map call stack
+        }
+
     }
 }

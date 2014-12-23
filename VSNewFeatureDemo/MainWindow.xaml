@@ -2,7 +2,9 @@
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="MainWindow" Height="350" Width="525">
-    <Grid>
-        
-    </Grid>
+    <UniformGrid>
+        <Button x:Name="btnCodeLens" Content="CodeLens" IsEnabled="False" />
+        <Button x:Name="btnCodeMaps" Content="CodeMaps" Click="btnCodeMaps_Click" />
+        <Button x:Name="btnMethodValues" Content="Examine return values of method calls" Click="btnMethodValues_Click" />
+    </UniformGrid>
 </Window>
