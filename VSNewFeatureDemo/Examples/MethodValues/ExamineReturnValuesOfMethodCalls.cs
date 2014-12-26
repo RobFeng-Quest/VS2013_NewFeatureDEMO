@@ -8,9 +8,11 @@ namespace VSNewFeatureDemo.Examples.MethodValues
     {
         public void Show()
         {
-            Method1();         // 1. Set a breakpoint here
+            // 1. Set a breakpoint here
+            Method1();
             // 2. Then step into Method1 
-            int y = Method2(); // 3. Set a breakpoint here
+            // 3. Set a breakpoint here
+            int y = Method2();
             // 4. Then step into Method2 
         }
 
