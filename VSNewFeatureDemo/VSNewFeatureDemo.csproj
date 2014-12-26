@@ -72,6 +72,7 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Examples\CodeMap\DebugCallStackExample.cs" />
     <Compile Include="Examples\IExample.cs" />
     <Compile Include="Examples\MethodValues\ExamineReturnValuesOfMethodCalls.cs" />
     <Compile Include="MainWindow.xaml.cs">
@@ -103,9 +104,7 @@
     </None>
     <AppDesigner Include="Properties\" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Examples\CodeMap\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
