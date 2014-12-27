@@ -34,7 +34,7 @@ namespace VSNewFeatureDemo
 
         private void btnMethodValues_Click(object sender, RoutedEventArgs e)
         {
-            ShowExample<ExamineReturnValuesOfMethodCalls>();
+            ShowExample<ExamineReturnValuesOfMethodCallsExample>();
         }
 
         private void btnCodeMaps_Click(object sender, RoutedEventArgs e)

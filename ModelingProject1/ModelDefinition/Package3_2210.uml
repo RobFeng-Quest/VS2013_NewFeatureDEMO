@@ -1,0 +1,361 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="b63ddd2d-2e20-41e7-933e-5a550dd90e5d"
+  name="DuplicateCode"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="bc8e513f-327c-48fc-b1e4-89fb33943257"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DVSNewFeatureDemo.Examples.DuplicateCode"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="b02c506f-e5f1-4d3c-9e78-0d153cbf4a37"
+        name="DuplicateCodeExample"
+        visibility="Package"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="57dfbbb1-072d-4d49-a9df-ce8cc4327467"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Frfeng%2FSource%2FRepos%2FVS2013_NewFeatureDEMO%2FVSNewFeatureDemo%2Fbin%2FDebug%2FVSNewFeatureDemo.exe Namespace%3DVSNewFeatureDemo.Examples.DuplicateCode Type%3DDuplicateCodeExample"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="24c1fe49-633f-49ee-b897-e2d6f8f8fe2c"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="2918b248-af50-4ec2-a702-7d3d7394005b">
+                <propertyInstance
+                  Id="ba114c25-ce7c-4ff1-b923-81ca4a4565bb"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d20632cf-a28c-4923-acf9-64121df58216">
+                <propertyInstance
+                  Id="719afc9e-83df-4322-bf58-bd5376347838"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="36b53dea-3b3c-4d0d-828a-5891a221ddc3">
+                <propertyInstance
+                  Id="3a3a6395-acc0-4ec9-806e-6f8895ef392e"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="14f8d5f7-ea5f-4655-a747-819bcea1c32f">
+                <propertyInstance
+                  Id="e7e632ed-133e-4dbc-8979-153c3846431e"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="5698fb15-c1c3-40c1-901c-2c65f8568a1e">
+                <propertyInstance
+                  Id="25064d48-b1b9-4e41-ba07-d0ca6f3e0937"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <suppliersInternal>
+          <interfaceRealization
+            Id="7d21d38b-baea-4724-b0d3-2ba8e27fb388">
+            <interfaceMoniker
+              Id="34e6bd61-039a-40e3-8728-29bec0960c43"
+              LastKnownName="IExample"
+              LastKnownLocation="Package1_2210.uml" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="839af988-2c0c-4d96-968c-6f006da9616b"
+            name="Show"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="e9393679-d204-4548-aab4-1d1f6a419c67"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Frfeng%2FSource%2FRepos%2FVS2013_NewFeatureDEMO%2FVSNewFeatureDemo%2Fbin%2FDebug%2FVSNewFeatureDemo.exe Namespace%3DVSNewFeatureDemo.Examples.DuplicateCode Type%3DDuplicateCodeExample Member%3DShow"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="65f4f209-a8e1-49f7-b6b0-de578761e0b2"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d12d06ce-8ca6-472d-990e-31bf6643980f">
+                    <propertyInstance
+                      Id="0bcb72a2-9152-490e-9c33-73e1c2e59fb9"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2b7f12c2-f509-4d64-94ea-17200a21ccad">
+                    <propertyInstance
+                      Id="704b99d2-9f0d-42f3-b85f-f50a75f97632"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9e988afe-955c-4c2a-801d-f12d03a27a6a">
+                    <propertyInstance
+                      Id="6dd6c75d-0078-4ec1-a863-2de903f09bff"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="02c0c8e5-249f-438a-ab60-ace619ea4b6d">
+                    <propertyInstance
+                      Id="87dce1e5-7cec-4428-bcbb-35d987017904"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="95113026-84a2-485c-8b50-e14b28fcf915">
+                    <propertyInstance
+                      Id="1c33fa11-e0a3-4138-add5-f31cd74a8084"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0d33d835-29ed-485e-93a2-33b578076c40">
+                    <propertyInstance
+                      Id="5b383881-88af-4f04-8e53-b61e88b38477"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="96e92470-3827-46ea-8d2c-ef72b786fd81"
+            name="Method1"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="true"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="4e272a95-0efc-49b3-abeb-ef1bbd23483e"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Frfeng%2FSource%2FRepos%2FVS2013_NewFeatureDEMO%2FVSNewFeatureDemo%2Fbin%2FDebug%2FVSNewFeatureDemo.exe Namespace%3DVSNewFeatureDemo.Examples.DuplicateCode Type%3DDuplicateCodeExample Member%3DMethod1"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="01d6aad8-1d8b-4782-88ae-91627b490cf2"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bd6c6362-e4e4-481d-8427-69c29625ac5f">
+                    <propertyInstance
+                      Id="182195f3-653e-420d-b2fe-549d8c7d7eee"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bfd68dc0-c963-4d10-a0a4-49ae8e3f4ff6">
+                    <propertyInstance
+                      Id="8b69d62c-bb51-4335-b7d5-a8d160e3763c"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e580fbc0-a3ce-40f6-8c70-ba942a16980a">
+                    <propertyInstance
+                      Id="7e858b55-8d1f-4137-83cb-9e344cc0aa38"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="71e1d893-65bc-4b6f-9cd5-54d5c98a398f">
+                    <propertyInstance
+                      Id="a2ece961-a0c5-47bd-b474-48318b4bde2d"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b84e84a2-3fbe-43a3-a6a8-f1f802559ee7">
+                    <propertyInstance
+                      Id="d7521515-1293-443a-b30c-3b4e5029d70a"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="41d504ed-39ce-4b99-9cbe-a9b215315a26">
+                    <propertyInstance
+                      Id="faa3446d-996d-48b2-9294-9a976a85bdab"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="458c5b2f-73f9-443a-941d-2ffd26b80fda"
+            name="Method2"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="true"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="2fde3c8f-c30b-4438-8f32-c1b83888c137"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Frfeng%2FSource%2FRepos%2FVS2013_NewFeatureDEMO%2FVSNewFeatureDemo%2Fbin%2FDebug%2FVSNewFeatureDemo.exe Namespace%3DVSNewFeatureDemo.Examples.DuplicateCode Type%3DDuplicateCodeExample Member%3DMethod2"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="46178029-4ce8-49b8-bcda-d3ed5af3c867"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4a280e5c-a27e-4d7e-b4f5-021ae028c7e7">
+                    <propertyInstance
+                      Id="90e66dfc-6acc-4a5c-bd0f-7f38273f5d26"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="457506db-0c33-4fa3-b175-7cc15c2b203c">
+                    <propertyInstance
+                      Id="77af1907-4963-4b73-bdfe-765af8cc51ed"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c828472c-68bf-49d7-a90e-021da051c285">
+                    <propertyInstance
+                      Id="2ca05046-ed25-4cb0-8385-b36bf112a480"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c8c26a2d-198d-429c-9da7-0002c5077772">
+                    <propertyInstance
+                      Id="da17856e-8f3b-4158-85b6-b5478a7b2905"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2a10d313-a93d-4df9-9570-79aca9e608d6">
+                    <propertyInstance
+                      Id="5a367155-bc18-4357-96bb-f07fb42b7a80"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ca06c80b-8033-4577-8e5f-ee287d092c28">
+                    <propertyInstance
+                      Id="f12090d1-1933-4a15-9054-dfdaf5082c2b"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="ddd79b41-2282-4999-87f1-b3dba7ed3a20"
+                  direction="Return">
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="ModelingProject1.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="d72ce0ea-e489-46ad-9794-a67a38e676cd"
+            name="DuplicateCodeExample"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="1107f722-7ade-4b7d-9c7e-add78f1983bc"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2Frfeng%2FSource%2FRepos%2FVS2013_NewFeatureDEMO%2FVSNewFeatureDemo%2Fbin%2FDebug%2FVSNewFeatureDemo.exe Namespace%3DVSNewFeatureDemo.Examples.DuplicateCode Type%3DDuplicateCodeExample Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="59d1b341-5517-47e8-9a0d-dc546fe091c1"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ad16f455-bd24-4aa3-9698-ed6cd847176c">
+                    <propertyInstance
+                      Id="e3bbc00d-54de-4d7a-9dee-fb8b57baa5ab"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1b31c49e-8d49-4605-8453-6bdaf9e89042">
+                    <propertyInstance
+                      Id="0e04dbf9-3c8b-4987-acd1-3635436a541c"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2f8a8dac-4d05-48cd-8af6-cb8090b43dcc">
+                    <propertyInstance
+                      Id="fd11c6b8-ad39-470d-8c61-f2d7327686f4"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4460ac59-e060-4e8e-9112-320386d2eabb">
+                    <propertyInstance
+                      Id="047f5af0-cadc-48fd-bce9-b51c93f67e62"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="27ac460d-aa3d-453a-9064-90f95bc68117">
+                    <propertyInstance
+                      Id="40d11dc8-8bd4-411f-bda2-7b6f0e309a4d"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0150c4cd-fc2b-4f18-89fe-594273be3d85">
+                    <propertyInstance
+                      Id="fbed34ff-3aa7-4479-8474-d85e576a8736"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

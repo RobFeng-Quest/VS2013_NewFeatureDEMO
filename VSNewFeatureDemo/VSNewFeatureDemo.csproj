@@ -74,7 +74,8 @@
     </Compile>
     <Compile Include="Examples\CodeMap\DebugCallStackExample.cs" />
     <Compile Include="Examples\IExample.cs" />
-    <Compile Include="Examples\MethodValues\ExamineReturnValuesOfMethodCalls.cs" />
+    <Compile Include="Examples\DuplicateCode\DuplicateCodeExample.cs" />
+    <Compile Include="Examples\MethodValues\ExamineReturnValuesOfMethodCallsExample.cs" />
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>

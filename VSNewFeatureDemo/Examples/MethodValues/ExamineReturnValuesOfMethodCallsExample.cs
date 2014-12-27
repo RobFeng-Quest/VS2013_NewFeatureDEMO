@@ -4,7 +4,7 @@ using System.Text;
 
 namespace VSNewFeatureDemo.Examples.MethodValues
 {
-    class ExamineReturnValuesOfMethodCalls : IExample
+    class ExamineReturnValuesOfMethodCallsExample : IExample
     {
         public void Show()
         {

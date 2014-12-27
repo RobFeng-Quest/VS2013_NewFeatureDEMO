@@ -11,6 +11,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Document", "Document", "{04
 		Document\Review VS.docx = Document\Review VS.docx
 	EndProjectSection
 EndProject
+Project("{F088123C-0E9E-452A-89E6-6BA2F21D5CAC}") = "ModelingProject1", "ModelingProject1\ModelingProject1.modelproj", "{53F79D31-E64D-4E0F-88CE-9DB81C7E621F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,12 @@ Global
 		{E88B7783-77C3-4136-843C-F649F9DE081F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{E88B7783-77C3-4136-843C-F649F9DE081F}.Release|x86.ActiveCfg = Release|x86
 		{E88B7783-77C3-4136-843C-F649F9DE081F}.Release|x86.Build.0 = Release|x86
+		{53F79D31-E64D-4E0F-88CE-9DB81C7E621F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53F79D31-E64D-4E0F-88CE-9DB81C7E621F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53F79D31-E64D-4E0F-88CE-9DB81C7E621F}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{53F79D31-E64D-4E0F-88CE-9DB81C7E621F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53F79D31-E64D-4E0F-88CE-9DB81C7E621F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53F79D31-E64D-4E0F-88CE-9DB81C7E621F}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
