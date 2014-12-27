@@ -40,10 +40,10 @@
     <Content Include="ModelDefinition\Package4_2210.uml">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="ModelDefinition\Package_2210.uml">
+    <Content Include="ModelDefinition\Package_2211.uml">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="ModelDefinition\Package_2211.uml">
+    <Content Include="ModelDefinition\Package_2210.uml">
       <SubType>Content</SubType>
     </Content>
     <Content Include="UMLClassDiagram1.classdiagram">
@@ -52,6 +52,13 @@
     <Content Include="UMLClassDiagram1.classdiagram.layout">
       <SubType>Content</SubType>
       <DependentUpon>UMLClassDiagram1.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="UMLSequenceDiagram1.sequencediagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="UMLSequenceDiagram1.sequencediagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>UMLSequenceDiagram1.sequencediagram</DependentUpon>
     </Content>
     <Folder Include="ModelDefinition\" />
     <Content Include="ModelDefinition\ModelingProject1.uml">
