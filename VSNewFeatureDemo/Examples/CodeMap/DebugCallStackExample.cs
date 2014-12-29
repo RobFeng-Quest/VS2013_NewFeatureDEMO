@@ -10,6 +10,9 @@ namespace VSNewFeatureDemo.Examples.CodeMap
 
         public void Show()
         {
+            //TODO: Indicates a workaround.
+            //HACK: Indicates something to be done.
+            //UNdone: Indicates a reversal or "roll back" of previously changed or updated code.
             FMessage.SendMessage("Message " + DateTime.Now);
 
             FMessage.Clear();
