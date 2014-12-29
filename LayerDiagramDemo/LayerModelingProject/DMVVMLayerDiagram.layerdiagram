@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<layerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="7847b7f5-95f6-4e50-9c3a-c149be1cd3cd" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/LayerDesigner">
+  <comments>
+    <comment Id="939d1208-ffbb-40b3-a55f-e7ee26458c15" name="Comment1">
+      <body>Reference Incorrect:
+1. Namespace
+2. Assambly</body>
+    </comment>
+  </comments>
+  <layers>
+    <layer Id="a44b94af-f930-4de8-870f-c78ce9529012" name="Presentation">
+      <dependencyToLayers>
+        <dependencyFromLayerToLayer Id="6a3e342c-bdd9-4ea2-bdb3-3b15a0cbbe03" direction="Forward">
+          <layerMoniker Id="95816c5a-e9cb-45ca-bbc0-aba14a4a90d6" />
+        </dependencyFromLayerToLayer>
+        <dependencyFromLayerToLayer Id="1540dd0f-48b4-4e02-b55c-2190e1abe5a2" direction="Forward">
+          <layerMoniker Id="2c53e3a3-371a-45f0-964a-f2578d7b1f53" />
+        </dependencyFromLayerToLayer>
+      </dependencyToLayers>
+      <childLayers>
+        <layer Id="4570e932-13f8-497d-b0fa-750cc85746ed" name="Views">
+          <dependencyToLayers>
+            <dependencyFromLayerToLayer Id="9776a4bd-f19b-4df3-81b3-2f67ffd5df89" direction="Forward">
+              <layerMoniker Id="2ae290ba-ca41-4684-b8ed-9342fbe63815" />
+            </dependencyFromLayerToLayer>
+            <dependencyFromLayerToLayer Id="8d6772c3-6c68-4f6f-abcd-1d6f557ff36e" direction="Forward">
+              <layerMoniker Id="99d734dc-461c-413c-a876-96c63dd7e61f" />
+            </dependencyFromLayerToLayer>
+            <dependencyFromLayerToLayer Id="e4f1c3d6-1044-42b8-ab9d-2f9ba93c6a0a" direction="Forward">
+              <layerMoniker Id="471d2ad6-380c-477d-a691-358b778702eb" />
+            </dependencyFromLayerToLayer>
+            <dependencyFromLayerToLayer Id="68230d38-5830-4542-993c-04ac3f5165da" direction="Forward">
+              <layerMoniker Id="670bede6-5465-4033-bb7c-706fa5f41ea6" />
+            </dependencyFromLayerToLayer>
+          </dependencyToLayers>
+          <references>
+            <reference Id="37ac0128-753f-41c8-b1d8-b244d2ebb7a3" name="VSNF‎.Presentation‎.Views">
+              <ArtifactNode Label="VSNF‎.Presentation‎.Views" Category="CodeSchema_Namespace" Id="(Namespace=VSNF.Presentation.Views)" />
+              <ExpandedNode Id="(Assembly=VSNF.Presentation)" Label="VSNF.Presentation.exe" Category="CodeSchema_Assembly">
+                <LinkCategory Ref="Dsl.NamespaceUsedInAssembly" />
+              </ExpandedNode>
+              <ExpandedNode Id="(Namespace=VSNF.Presentation.Views)" Label="VSNF‎.Presentation‎.Views" Category="CodeSchema_Namespace">
+                <LinkCategory Ref="Represents" />
+              </ExpandedNode>
+            </reference>
+          </references>
+        </layer>
+      </childLayers>
+    </layer>
+    <layer Id="2c53e3a3-371a-45f0-964a-f2578d7b1f53" name="Applications&#xD;&#xA;" forbiddenNamespaceDependencies="System.Windows.Controls;System.Windows.Data;System.Windows.Media;System.Media;VSNF.Presentation">
+      <dependencyToLayers>
+        <dependencyFromLayerToLayer Id="8c6ea71a-00f5-423a-ab00-b974caad819d" direction="Forward">
+          <layerMoniker Id="827e8c8b-1bba-40bb-9981-005cd47b84b9" />
+        </dependencyFromLayerToLayer>
+      </dependencyToLayers>
+      <childLayers>
+        <layer Id="03d47c7f-8fcb-4066-add0-3804ca7a6131" name="Controllers">
+          <dependencyToLayers>
+            <dependencyFromLayerToLayer Id="39b49092-f7cc-4073-b93d-7355132e47f3" direction="Forward">
+              <layerMoniker Id="471d2ad6-380c-477d-a691-358b778702eb" />
+            </dependencyFromLayerToLayer>
+            <dependencyFromLayerToLayer Id="e243a36b-4801-4857-be55-d22a7c1f92aa" direction="Forward">
+              <layerMoniker Id="2ae290ba-ca41-4684-b8ed-9342fbe63815" />
+            </dependencyFromLayerToLayer>
+          </dependencyToLayers>
+          <references>
+            <reference Id="011b3bac-0688-4e59-901b-83f54c8b9187" name="VSNF‎.Applications‎.Controllers">
+              <ArtifactNode Label="VSNF‎.Applications‎.Controllers" Category="CodeSchema_Namespace" Id="(Namespace=VSNF.Applications.Controllers)" />
+              <ExpandedNode Id="(Assembly=VSNF.Applications)" Label="VSNF.Applications.dll" Category="CodeSchema_Assembly">
+                <LinkCategory Ref="Dsl.NamespaceUsedInAssembly" />
+              </ExpandedNode>
+              <ExpandedNode Id="(Namespace=VSNF.Applications.Controllers)" Label="VSNF‎.Applications‎.Controllers" Category="CodeSchema_Namespace">
+                <LinkCategory Ref="Represents" />
+              </ExpandedNode>
+            </reference>
+          </references>
+        </layer>
+        <layer Id="2ae290ba-ca41-4684-b8ed-9342fbe63815" name="ViewModels">
+          <dependencyToLayers>
+            <dependencyFromLayerToLayer Id="fed285a1-5255-4474-994c-f118214af658" direction="Forward">
+              <layerMoniker Id="471d2ad6-380c-477d-a691-358b778702eb" />
+            </dependencyFromLayerToLayer>
+            <dependencyFromLayerToLayer Id="a30cecc8-acee-4d4b-81b9-c4f203eb0051" direction="Forward">
+              <layerMoniker Id="99d734dc-461c-413c-a876-96c63dd7e61f" />
+            </dependencyFromLayerToLayer>
+          </dependencyToLayers>
+          <references>
+            <reference Id="9f5e0622-8321-409f-bc05-e0d7d67451a4" name="VSNF‎.Applications‎.ViewModels">
+              <ArtifactNode Label="VSNF‎.Applications‎.ViewModels" Category="CodeSchema_Namespace" Id="(Namespace=VSNF.Applications.ViewModels)" />
+              <ExpandedNode Id="(Assembly=VSNF.Applications)" Label="VSNF.Applications.dll" Category="CodeSchema_Assembly">
+                <LinkCategory Ref="Dsl.NamespaceUsedInAssembly" />
+              </ExpandedNode>
+              <ExpandedNode Id="(Namespace=VSNF.Applications.ViewModels)" Label="VSNF‎.Applications‎.ViewModels" Category="CodeSchema_Namespace">
+                <LinkCategory Ref="Represents" />
+              </ExpandedNode>
+            </reference>
+          </references>
+        </layer>
+        <layer Id="99d734dc-461c-413c-a876-96c63dd7e61f" name="Views" forbiddenNamespaceDependencies="VSNF.Applications.ViewModels">
+          <references>
+            <reference Id="0297a81a-5798-4b30-8d6d-db02218aa222" name="VSNF‎.Applications‎.Views">
+              <ArtifactNode Label="VSNF‎.Applications‎.Views" Category="CodeSchema_Namespace" Id="(Namespace=VSNF.Applications.Views)" />
+              <ExpandedNode Id="(Assembly=VSNF.Applications)" Label="VSNF.Applications.dll" Category="CodeSchema_Assembly">
+                <LinkCategory Ref="Dsl.NamespaceUsedInAssembly" />
+              </ExpandedNode>
+              <ExpandedNode Id="(Namespace=VSNF.Applications.Views)" Label="VSNF‎.Applications‎.Views" Category="CodeSchema_Namespace">
+                <LinkCategory Ref="Represents" />
+              </ExpandedNode>
+            </reference>
+          </references>
+        </layer>
+        <layer Id="471d2ad6-380c-477d-a691-358b778702eb" name="DataModels">
+          <dependencyToLayers>
+            <dependencyFromLayerToLayer Id="8ba3775a-0875-48f1-ba5a-0518812ede09" direction="Forward">
+              <layerMoniker Id="670bede6-5465-4033-bb7c-706fa5f41ea6" />
+            </dependencyFromLayerToLayer>
+          </dependencyToLayers>
+          <references>
+            <reference Id="8d0b23c0-8091-4db6-b99d-65baa02f7268" name="VSNF‎.Applications‎.DataModels">
+              <ArtifactNode Label="VSNF‎.Applications‎.DataModels" Category="CodeSchema_Namespace" Id="(Namespace=VSNF.Applications.DataModels)" />
+              <ExpandedNode Id="(Assembly=VSNF.Applications)" Label="VSNF.Applications.dll" Category="CodeSchema_Assembly">
+                <LinkCategory Ref="Dsl.NamespaceUsedInAssembly" />
+              </ExpandedNode>
+              <ExpandedNode Id="(Namespace=VSNF.Applications.DataModels)" Label="VSNF‎.Applications‎.DataModels" Category="CodeSchema_Namespace">
+                <LinkCategory Ref="Represents" />
+              </ExpandedNode>
+            </reference>
+          </references>
+        </layer>
+      </childLayers>
+    </layer>
+    <layer Id="95816c5a-e9cb-45ca-bbc0-aba14a4a90d6" name="Business Infrastructure" forbiddenNamespaceDependencies="System.Windows;System.Media">
+      <childLayers>
+        <layer Id="c3e4c3e9-e7c7-4ad9-9257-bfe55ef6b22a" name="Presentation">
+          <references>
+            <reference Id="24f3bc6b-28b2-4e1c-ad26-b01308798e49" name="VSNF‎.BusinessInfrastructure‎.Presentation">
+              <ArtifactNode Label="VSNF‎.BusinessInfrastructure‎.Presentation" Category="CodeSchema_Namespace" Id="(Namespace=VSNF.BusinessInfrastructure.Presentation)" />
+              <ExpandedNode Id="(Assembly=VSNF.BusinessInfrastructure)" Label="VSNF.BusinessInfrastructure.dll" Category="CodeSchema_Assembly">
+                <LinkCategory Ref="Dsl.NamespaceUsedInAssembly" />
+              </ExpandedNode>
+              <ExpandedNode Id="(Namespace=VSNF.BusinessInfrastructure.Presentation)" Label="VSNF‎.BusinessInfrastructure‎.Presentation" Category="CodeSchema_Namespace">
+                <LinkCategory Ref="Represents" />
+              </ExpandedNode>
+            </reference>
+          </references>
+        </layer>
+        <layer Id="827e8c8b-1bba-40bb-9981-005cd47b84b9" name="Applications">
+          <references>
+            <reference Id="f5cb98e7-5a4a-44e4-8885-a9a3b43d8865" name="VSNF‎.BusinessInfrastructure‎.Applications">
+              <ArtifactNode Label="VSNF‎.BusinessInfrastructure‎.Applications" Category="CodeSchema_Namespace" Id="(Namespace=VSNF.BusinessInfrastructure.Applications)" />
+              <ExpandedNode Id="(Assembly=VSNF.BusinessInfrastructure)" Label="VSNF.BusinessInfrastructure.dll" Category="CodeSchema_Assembly">
+                <LinkCategory Ref="Dsl.NamespaceUsedInAssembly" />
+              </ExpandedNode>
+              <ExpandedNode Id="(Namespace=VSNF.BusinessInfrastructure.Applications)" Label="VSNF‎.BusinessInfrastructure‎.Applications" Category="CodeSchema_Namespace">
+                <LinkCategory Ref="Represents" />
+              </ExpandedNode>
+            </reference>
+          </references>
+        </layer>
+      </childLayers>
+    </layer>
+    <layer Id="670bede6-5465-4033-bb7c-706fa5f41ea6" name="Domain" forbiddenNamespaceDependencies="System.Windows.Controls;System.Windows.Data;System.Windows.Media;System.Media;VSNF.Presentation;VSNF.Applications">
+      <references>
+        <reference Id="c51c0a2d-a53e-4687-bc12-f174f4e2d266" name="VSNF‎.Domain">
+          <ArtifactNode Label="VSNF‎.Domain" Category="CodeSchema_Namespace" Id="(Namespace=VSNF.Domain)" />
+          <ExpandedNode Id="(Assembly=VSNF.Domain)" Label="VSNF.Domain.dll" Category="CodeSchema_Assembly">
+            <LinkCategory Ref="Dsl.NamespaceUsedInAssembly" />
+          </ExpandedNode>
+          <ExpandedNode Id="(Namespace=VSNF.Domain)" Label="VSNF‎.Domain" Category="CodeSchema_Namespace">
+            <LinkCategory Ref="Represents" />
+          </ExpandedNode>
+        </reference>
+      </references>
+    </layer>
+  </layers>
+</layerModel>

@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{d7bb4295-dd96-4650-a65a-356139f314ad}</ProjectGuid>
+    <ArchitectureToolsVersion>2.0.0.0</ArchitectureToolsVersion>
+    <Name>LayerModelingProject</Name>
+    <RootNamespace>LayerModelingProject</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\ArchitectureTools\Microsoft.VisualStudio.TeamArchitect.ModelingProject.targets" Condition="'$(VSToolsPath)' != ''" />
+  <ItemGroup>
+    <Folder Include="ModelDefinition\" />
+    <Content Include="ModelDefinition\LayerModelingProject.uml">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Validate Include="DMVVMLayerDiagram.layerdiagram">
+      <SubType>Content</SubType>
+    </Validate>
+    <Validate Include="DMVVMLayerDiagram.layerdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>DMVVMLayerDiagram.layerdiagram</DependentUpon>
+    </Validate>
+    <Validate Include="DMVVMLayerDiagram.layerdiagram.suppressions">
+      <SubType>Content</SubType>
+      <DependentUpon>DMVVMLayerDiagram.layerdiagram</DependentUpon>
+    </Validate>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\VSNF.BusinessInfrastructure\VSNF.BusinessInfrastructure.csproj">
+      <Name>VSNF.BusinessInfrastructure</Name>
+      <Project>{bfc74f23-ec4a-4fc0-8ddf-e0613c4a6528}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\VSNF.Applications\VSNF.Applications.csproj">
+      <Name>VSNF.Applications</Name>
+      <Project>{bc4151bf-0748-4531-9db5-b5e6879bc8c8}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\VSNF.Domain\VSNF.Domain.csproj">
+      <Name>VSNF.Domain</Name>
+      <Project>{747c7d9e-158a-4068-8489-847d385b1cfd}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\VSNF.Presentation\VSNF.Presentation.csproj">
+      <Name>VSNF.Presentation</Name>
+      <Project>{b26eacea-e846-4e17-8a8b-ab0a9b2a3bc0}</Project>
+    </ProjectReference>
+  </ItemGroup>
+</Project>
