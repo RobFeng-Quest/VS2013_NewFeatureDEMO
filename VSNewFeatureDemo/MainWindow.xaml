@@ -6,5 +6,7 @@
         <Button x:Name="btnCodeLens" Content="CodeLens" IsEnabled="False" />
         <Button x:Name="btnCodeMaps" Content="CodeMaps" Click="btnCodeMaps_Click" />
         <Button x:Name="btnMethodValues" Content="Examine return values of method calls" Click="btnMethodValues_Click" />
+        <Button x:Name="btnMulThread" Content="Debug Thread" Click="btnMulThread_Click" />
+        <Button x:Name="btnMulThreadTask" Content="Debug Thread Task" Click="btnMulThreadTask_Click"  />
     </UniformGrid>
 </Window>

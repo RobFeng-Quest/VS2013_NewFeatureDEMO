@@ -13,6 +13,7 @@ using System.Windows.Shapes;
 using VSNewFeatureDemo.Examples;
 using VSNewFeatureDemo.Examples.CodeMap;
 using VSNewFeatureDemo.Examples.MethodValues;
+using VSNewFeatureDemo.Examples.MultipleThread;
 
 namespace VSNewFeatureDemo
 {
@@ -40,6 +41,16 @@ namespace VSNewFeatureDemo
         private void btnCodeMaps_Click(object sender, RoutedEventArgs e)
         {
             ShowExample<DebugCallStackExample>();
+        }
+
+        private void btnMulThread_Click(object sender, RoutedEventArgs e)
+        {
+            ShowExample<DebugThreadExample>();
+        }
+
+        private void btnMulThreadTask_Click(object sender, RoutedEventArgs e)
+        {
+            ShowExample<ThreadTaskExample>();
         }
 
     }
