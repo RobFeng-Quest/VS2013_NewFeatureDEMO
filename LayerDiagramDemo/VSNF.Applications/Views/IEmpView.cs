@@ -5,7 +5,7 @@ using VSNF.BusinessInfrastructure.Applications;
 
 namespace VSNF.Applications.Views
 {
-    // BBB
+    // AAA BBB
     public interface IEmpView : IView
     {
     }
